@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Proxima_Nova_ExCn_Rg';
+    src: url('../fonts/ProximaNovaExCn-Regular.eot');
+    src: url('../fonts/ProximaNovaExCn-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaExCn-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNovaExCn-Regular.woff') format('woff'),
+        url('../fonts/ProximaNovaExCn-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNovaExCn-Regular.svg#ProximaNovaExCn-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima_Nova_ExCn_Bl';
+    src: url('../fonts/ProximaNovaExCn-Black.eot');
+    src: url('../fonts/ProximaNovaExCn-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaExCn-Black.woff2') format('woff2'),
+        url('../fonts/ProximaNovaExCn-Black.woff') format('woff'),
+        url('../fonts/ProximaNovaExCn-Black.ttf') format('truetype'),
+        url('../fonts/ProximaNovaExCn-Black.svg#ProximaNovaExCn-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+}
+#clear{clear: both;}
+/***********************************************/
+.wrapper{
+	width: 100%;
+	max-width:1200px;
+	min-width:1200px;
+	margin:0 auto;
+}
+hr {
+    border: none; 
+    color: #cccccc; 
+    background-color: #cccccc; 
+    height: 3px;
+    margin: 0 40px;
+}
+.rotateIn{width:50%;}
+.mainImg{
+	background:url('../img/main.jpg');
+	background-repeat: no-repeat;
+	background-position: left 50px;
+	padding: 0 40px;
+	box-sizing: border-box;
+}
+.header>h1{
+	font-family: 'Proxima_Nova_ExCn_Bl';
+	text-transform:uppercase;
+	font-size: 85px;
+	line-height: 90px;
+	color: #9DE001;
+	padding: 30px 40px 20px;
+}
+.header>h2{
+	font-family: 'Proxima_Nova_ExCn_Bl';
+	text-transform:uppercase;
+	font-size: 32px;
+	line-height: 37px;
+	color: black;
+	padding: 0px 40px 20px;
+}
+.header>.structure{
+	padding: 30px 40px 10px;
+	box-sizing: border-box;
+}
+.header>.structure>.block{
+	width:32%;
+	float: left;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.header>.structure>.block>img{margin-bottom: 10px;}
+.header>.structure>.block>h4{
+	font-family: 'Proxima_Nova_ExCn_Rg';
+	font-size: 40px;
+	line-height: 45px;
+	color: black;
+}
+
+.goodIdea{
+	background-color: black;
+	height:300px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.goodIdea>.main-img{
+	width: 25%;
+	float: left;
+	background-image: url('../img/img-1.jpg');
+	background-repeat: no-repeat;
+	background-position: left -50px;
+	height: 300px;
+	border-radius: 0% 45% 50% 0% / 50% 50% 50% 50%;
+}
+.goodIdea>.main-text{
+	float: left;
+	width: 75%;
+	height: 100%;
+	padding: 0 40px;
+}
+.goodIdea>.main-text p{	
+	font-family: 'Proxima_Nova_ExCn_Rg';
+	font-size: 24px;
+	line-height: 30px;
+	color: white;
+	text-align: justify;
+}
+
+.advan{
+	padding: 10px 40px;
+	box-sizing: border-box;
+}
+.advan>.safe{	background-image: url('../img/safe.png'); }
+.advan>.time{	background-image: url('../img/time.png'); }
+.advan>.team{	background-image: url('../img/team.png'); }
+.advan>.goal{	background-image: url('../img/goal.png'); }
+.advan>.happy{	background-image: url('../img/happy.png'); }
+.advan>table{	
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 210px;
+	margin: 55px 0;
+}
+.advan>table .left{width: 45%;}
+.advan>table .left h4{
+	font-family: 'Proxima_Nova_ExCn_Bl';
+	text-transform:uppercase;
+	font-size: 50px;
+	line-height: 60px;
+	color: black;
+	padding: 0px 40px;
+}
+.advan>table .right{width:55%;}
+.advan>table .right p{	
+	font-family: 'Proxima_Nova_ExCn_Rg';
+    font-size: 24px;
+    line-height: 32px;
+    color: black;
+    margin: 0px 10px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.howToGet{
+	background: url(../img/what.png), black;
+    background-repeat: no-repeat;
+    background-position: right 5px, top center;
+    height: 200px;
+    box-sizing: border-box;
+}
+.howToGet>.main-img{
+	width: 21%;
+    float: left;
+    background-image: url(../img/img-2.jpg);
+    background-repeat: no-repeat;
+    background-position: -40px -10px;
+    height: 200px;
+    border-radius: 0% 24% 45% 0% / 50% 31% 62% 50%;
+}
+.howToGet>.main-text{
+	float: left;
+	width: 78%;
+	height: 100%;
+	padding: 0 20px 0 20px;
+}
+.howToGet>.main-text h3{	
+	font-family: 'Proxima_Nova_ExCn_Bl';
+	text-transform:uppercase;
+	font-size: 66px;
+	line-height: 80px;
+	color: white;
+	padding: 0px 0px;
+}
+
+.howToGetSteps{
+	padding: 30px 40px;
+	box-sizing: border-box;	
+	background: url(../img/img-3.png);
+    background-repeat: no-repeat;
+    background-position: 150% -190%;
+}
+.howToGetSteps .step:nth-child(1){	background-image: url('../img/1.png');}
+.howToGetSteps .step:nth-child(2){	background-image: url('../img/2.png');}
+.howToGetSteps .step:nth-child(3){	background-image: url('../img/3.png');}
+.howToGetSteps .step:nth-child(4){	background-image: url('../img/4.png');}
+.howToGetSteps>.step{
+	 background-repeat: no-repeat;
+    background-position: left top;
+    height: 120px;
+    padding: 0px 80px;
+    box-sizing: border-box;
+    margin: 40px 0;
+    width: 80%;
+}
+.howToGetSteps>.step h4{
+	font-family: 'Proxima_Nova_ExCn_Bl';
+	text-transform:uppercase;
+	font-size: 53px;
+	line-height: 60px;
+	color: black;
+}
+.howToGetSteps>.step p{
+	font-family: 'Proxima_Nova_ExCn_Rg';
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    font-weight: 500;
+}
+
+.ourTeam{
+	padding: 20px 40px;
+	box-sizing: border-box;
+	height: 1000px;
+	background: black;
+    background-repeat: no-repeat;    
+    background-position: top left;
+    position: relative;
+}
+.ourTeam h4{
+	font-family: 'Proxima_Nova_ExCn_Bl';
+	text-transform:uppercase;
+	font-size: 80px;
+	line-height: 90px;
+	color: white;
+}
+.ourTeam p{
+	font-family: 'Proxima_Nova_ExCn_Rg';
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+    width: 50%;
+}
+.ourTeam>.block{position: absolute;}
+.ourTeam>.block:nth-child(3){
+	left: -20px;
+	bottom:0;
+	z-index: 1;
+}
+.ourTeam>.block:nth-child(4){
+	right: -20px;
+	top:40px;
+	z-index: 2;
+}
+.ourTeam>.block:nth-child(5){
+	right: 60px;
+	bottom:0;
+	z-index: 3;
+}
+
+.footer{
+	padding: 20px 40px;
+	box-sizing: border-box;
+	background-color: #9DE001;
+}
+.footer .left, .footer .right{
+	float:left;
+	text-align: left;
+}
+.footer .right{	width:45%;}
+.footer .left{	width:55%;}
+.footer .left h4{
+	font-family: 'Proxima_Nova_ExCn_Rg';
+    font-size: 40px;
+    line-height: 50px;
+    color: black;
+    font-weight: normal;
+    padding: 20px 50px;
+}
+
+
+
+/**********************************************/
+@media screen and (max-width: 1024px) {
+	
+}
+
