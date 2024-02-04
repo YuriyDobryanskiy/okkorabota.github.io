@@ -261,6 +261,7 @@ hr {
 	padding: 20px 40px;
 	box-sizing: border-box;
 	background-color: #9DE001;
+	display:flex;
 }
 .footer .left, .footer .right{
 	float:left;
